@@ -10,26 +10,24 @@ const Love = () => {
         <div className='app__love-cover'>
             <h1>Love By Design <br/> 2022</h1>
         </div>
-        <div className='app__love-grids'>
-          <div className='app__love-image-grid-1'>
-              <img src={images.picture1}/>
-              <img src={images.picture5}/>
-              <img src={images.picture3}/>
-              <img src={images.picture2}/>
+        <div class="app__love-grids">
+          <div class="app__love-grids-grid">
+              <img src="./images/pic1.png" alt="pic1"/>
+              <img src="./images/pic3.png" alt="pic1"/>
+              <img src="./images/pic4.png" alt="pic1"/>
+              <img src="./images/pic12.png" alt="pic1"/>
+
           </div>
-          <div className='app__love-image-grid-2'>
-              <img src={images.picture3}/>
-              <img src={images.picture1}/>
-              <img src={images.picture6}/>
-              <img src={images.picture4}/>
+          <div class="app__love-grids-grid">
+              <img src="./images/pic2.png" alt="pic1"/>
+              <img src="./images/pic10.png" alt="pic1"/>
+              <img src="./images/pic11.png" alt="pic1"/>
           </div>
-          <div className='app__love-image-grid-3'>
-              <img src={images.picture7}/>
-              <img src={images.picture3}/>
-              <img src={images.picture2}/>
-              <img src={images.picture5}/>
+          <div class="app__love-grids-grid">
+              <img src="./images/pic9.png" alt="pic1"/>
+              <img src="./images/pic1.png" alt="pic1"/>
           </div>
-        </div>
+    </div>
     </div>
   )
 }
