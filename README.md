@@ -5,3 +5,4 @@ This portfolio was created for a local graphic designer in my city to display th
 ## Libraries
 - React
 - React Router
+- Firebase
